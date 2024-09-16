@@ -1,0 +1,573 @@
+@media (max-width: 992px ) {
+    .container {
+        max-width: 800px;
+    }
+    .team .team-body {
+        flex-wrap: wrap;
+    }
+    .team .team-body .anne {
+        margin-bottom: 30px;
+    }
+    .services .services-body {
+        flex-wrap: wrap;
+       
+      }
+      .services .services-body .flag{
+        margin-bottom: 20px;
+      }
+      .contact .touch h1 {
+        font-size: 36px;
+        line-height: 26px;
+        padding-top: 110px;
+    }
+    .contact form input {
+        width: 340px;
+        height: 50px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 12px;
+    }
+    .contact textarea {
+        width: 710px;
+        height: 180px;
+        padding-left: 12px;
+    }
+       
+}
+@media (max-width: 768px ) {
+    .container {
+        padding: 0 10px;
+        max-width: 600px;
+    }
+    header {
+        padding-bottom: 90px;
+    }
+    header nav {
+        padding-top: 45px;
+    }
+    header nav .img img{
+        width: 110px;
+    }
+    header nav .navbar ul {
+        display: none;
+    }
+    header nav #bar_icon {
+        display: block;
+    }
+    header .header-body p {
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: 600;
+        margin-top: 80px;
+        margin-bottom: 45px;
+    }
+    header .header-body button {
+        width: 180px;
+        height: 55px;
+        border-radius: 2px;
+        border-bottom: 2px solid #c86a40;
+    }
+    header .header-body button a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+  
+    .services {
+        padding-bottom: 100px;
+    }
+    .services .services-head h1 {
+        font-size: 34px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        padding-top: 90px;
+    }
+    .services .services-head p {
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 24px;
+        color: #ffffff;
+        margin: 15px auto 60px auto;
+        
+    }
+    
+    .services .services-body .flag h1 {
+        font-size: 20px;
+        line-height: 20px;
+        margin: 40px 0 20px 0;
+    }
+    .services .services-body .flag p {
+
+    font-size: 15px;
+ 
+    line-height: 22px;
+   
+}
+
+.team .team-head h1 {
+    font-size: 34px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    padding-top: 90px;
+
+}
+
+.team .team-head p {
+    font-size: 16px;
+    line-height: 22px;
+
+}
+
+.team .team-body {
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding-bottom: 100px;
+}
+
+.team .team-body img {
+    width: 180px;
+    height: 180px;
+}
+.team .team-body h1 {
+    font-size: 22px;
+    margin: 35px 0 15px 0;
+}
+
+.team .team-body a {
+    font-size: 15px;
+    line-height: 18px;
+    
+}
+
+.team .team-body p {
+    width: 190px;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 25px 0;
+}
+.team .team-body i {
+    font-size: 25px;
+    margin-bottom: 30px;
+    }
+
+    .project {
+        padding-bottom: 90px;
+    }
+    
+    .project .project-head h1 {
+        font-size: 36px;
+        letter-spacing: 4px;
+        line-height: 30px;
+        padding-top: 90px;
+    }
+    .project .project-head hr {
+        width: 70px;
+        height: 4px;
+        margin: 20px auto;
+    }
+    
+.project .project-head p {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #393939;
+    font-weight: 400;
+    font-family: var(--mainFont);
+    text-align: center;
+}
+
+.project .project-body .images img {
+ 
+    width: 380px;
+    margin-bottom: 40px;
+   
+ 
+   
+}
+
+.people {
+  
+    padding-bottom: 100px;
+}
+
+.people .people-head h1 {
+    font-size: 34px;
+    letter-spacing: 4px;
+    line-height: 34px;
+    padding-top: 90px;
+}
+
+
+.people .people-body .card .card-body p {
+    
+    font-size: 19px;
+    line-height: 22px;
+    margin-bottom: 26px;
+
+}
+
+.people .people-body .card .card-body a {
+    font-size: 18px;
+    line-height: 20px;
+  
+}
+.contact .touch h1 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    padding-top: 70px;
+}
+.contact .touch hr {
+    width: 72px;
+    height: 4px;
+    margin: 20px auto;
+}
+.contact .touch p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.contact form input {
+    width: 260px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.contact input::placeholder, .contact textarea::placeholder{
+    font-size: 15px;
+    line-height: 18px;
+}
+.contact textarea {
+    margin-left: 20px;
+    width: 540px;
+    height: 150px;
+    border-radius: 3px;
+    padding-left: 10px; 
+}
+.contact .contact-button {
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+.contact button {
+    width: 200px;
+    height: 60px;
+    border-radius: 3px;
+    font-size: 15px;
+    line-height: 22px;
+border-bottom: 3px solid #299ec5;
+}
+}
+@media (max-width: 576px ) {
+
+    header {
+        padding-bottom: 50px;
+    }
+    header nav .img img{
+        margin-left: 10px;
+        width: 70px;
+    }
+    header nav {
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    header nav #bar_icon {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+  
+    header .header-body p {
+        font-size: 22px;
+        line-height: 24px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+       
+    }
+    header .header-body button {
+        width: 100%;
+    }
+    
+header .header-body button a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    
+}
+header .navAnimation {
+    width: 200px;
+}
+header nav .navAnimation i {
+    font-size: 28px;
+}
+header nav .navAnimation ul li {
+    margin: 8px 0 25px 45px;
+    list-style: none;
+}
+header nav .navAnimation ul li a {
+    font-weight: 600;
+    font-size: 18px;
+}
+.services {
+    padding-bottom: 50px;
+}
+.services .services-head h1 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.services .services-head hr {
+    width: 45px;
+    height: 4px;
+    background-color: #000000;
+
+}
+.services .services-head p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #ffffff;
+    margin: 10px auto 35px auto;
+    
+}
+.services .services-body .flag{
+    margin-bottom: 15px;
+}
+.services .services-body .flag h1 {
+    font-size: 15px;
+    line-height: 16px;
+    margin: 30px 0 15px 0;
+}
+.services .services-body .flag p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+.services .services-body .flag img {
+    display: block;
+    width: 70px;
+    margin: auto;
+}
+
+.team .team-head h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    padding-top: 50px;
+    font-weight: 600;
+
+}
+
+.team .team-head hr {
+    
+    width: 50px;
+    height: 4px;
+    margin: 18px auto 18px auto;
+}
+.team .team-head p {
+    font-size: 14px;
+    line-height: 15px;
+ 
+
+}
+
+.team .team-body {
+    margin-top: 25px;
+    padding-bottom: 70px;
+}
+.team .team-body .anne {
+    margin-bottom: 15px;
+}
+.team .team-body img {
+    width: 120px;
+    height: 120px;
+}
+
+.team .team-body h1 {
+    font-size: 19px;
+    margin: 25px 0 10px 0;
+}
+
+.team .team-body a {
+    font-size: 13px;
+    line-height: 15px;
+    
+}
+.team .team-body p {
+    width: 100%;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 15px 0;
+}
+.team .team-body i {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    }
+
+    .project {
+        padding-bottom: 40px;
+    }
+
+    .project .project-head h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+        line-height: 20px;
+        padding-top: 40px;
+    }
+
+
+    .project .project-head p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        line-height: 16px;
+    }
+
+    .project .project-body ul {
+        margin: 20px auto;
+      
+    }
+    .project .project-body ul li {
+        display: inline-block;
+        margin-left: 8px;
+        margin-bottom: 20px;
+       
+       
+    }
+    .project .project-body ul li a {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    .project .project-body .images {
+        margin-left: 0;
+    }
+
+    .project .project-body .images img {
+ 
+        width: 150px;
+        margin-bottom: 20px;
+       
+     
+       
+    }
+    
+    .project .project-body button {
+        width: 100%; 
+        margin-top: 30px;
+    }
+
+    .project .project-body button a {
+        font-size: 14px;
+    line-height: 16px;
+  
+    }
+
+
+    .people {
+  
+        padding-bottom: 50px;
+    }
+    
+
+    .people .people-head h1 {
+        font-size: 24px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        padding-top: 40px;
+    }
+
+    .people .people-head hr {
+        width: 50px;
+        margin: 18px auto;
+        
+    }
+
+    .people .people-head p {
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 30px;
+    }
+    .people .people-body {
+        display: block;
+      
+    }
+
+    .people .people-body .card {
+        margin-bottom: 30px;
+        margin-right: 1px;
+    
+    
+    }
+    .people .people-body .card .card-image img {
+        width: 80px;
+        height: 80px;
+        margin-right: 1px;
+    }
+    .people .people-body .card .card-body p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 20px;
+
+}
+.people .people-body .card .card-body a {
+    font-size: 14px;
+    line-height: 15px;
+  
+}
+.contact .touch h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    padding-top: 30px;
+}
+.contact .touch hr {
+    width: 100%;
+    height: 2px;
+    margin: 10px auto;
+}
+.contact .touch p {
+    font-size: 11px;
+    line-height: 14px;
+    margin-bottom: 20px;
+}
+.contact form input {
+    width: 100%;
+    height: 25px;
+    border-radius: 1px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+}
+.contact input::placeholder, .contact textarea::placeholder{
+    font-size: 11px;
+    line-height: 14px;
+}
+.contact textarea {
+    margin-left: 0px;
+    width: 100%;
+    height: 70px;
+    border-radius: 1px;
+    padding-left: 7px; 
+}
+
+.contact .contact-button {
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+.contact button {
+    width: 100%;
+    height: 50px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+border-bottom: 1px solid #299ec5;
+}
+
+}
